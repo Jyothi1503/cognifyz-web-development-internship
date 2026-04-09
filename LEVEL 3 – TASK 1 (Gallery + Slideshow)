@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Level 3 - Task 1</title>
+    <style>
+        img { width: 100px; margin: 10px; transition: 0.3s; }
+        img:hover { transform: scale(1.5); }
+    </style>
+</head>
+<body>
+
+<h2>Image Gallery</h2>
+
+<img src="https://via.placeholder.com/100">
+<img src="https://via.placeholder.com/100">
+<img src="https://via.placeholder.com/100">
+
+</body>
+</html>
