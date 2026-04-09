@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Level 2 - Task 2</title>
+    <style>
+        body { font-family: Arial; }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+            background: lightblue;
+            padding: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .menu {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h2>Responsive Navigation</h2>
+
+<div class="menu">
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+
+</body>
+</html>
