@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing Page</title>
+    <style>
+        body { text-align: center; font-family: Arial; }
+        button { padding: 10px 20px; }
+    </style>
+</head>
+<body>
+
+<h1>Web Developer Internship Opportunities</h1>
+
+<p>Join our internship program to gain real-world experience.</p>
+
+<h3>Benefits:</h3>
+<p>✔ Hands-on projects<br>✔ Mentorship<br>✔ Skill development</p>
+
+<h3>Qualifications:</h3>
+<p>Basic knowledge of HTML, CSS, JavaScript</p>
+
+<button>Apply Now</button>
+
+<footer>
+    <p>Contact: info@example.com</p>
+</footer>
+
+</body>
+</html>
