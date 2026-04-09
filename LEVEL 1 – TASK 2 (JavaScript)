@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Level 1 - Task 2</title>
+</head>
+<body style="text-align:center; font-family:Arial;">
+
+<h2>JavaScript Tasks</h2>
+
+<!-- Button color -->
+<button onclick="changeColor(this)">Click Me</button>
+
+<br><br>
+
+<!-- Greeting -->
+<button onclick="showGreeting()">Show Greeting</button>
+
+<br><br>
+
+<!-- Calculator -->
+<input type="number" id="num1" placeholder="Number 1">
+<input type="number" id="num2" placeholder="Number 2">
+<button onclick="addNumbers()">Add</button>
+
+<p>Result: <span id="result"></span></p>
+
+<script>
+function changeColor(btn) {
+    btn.style.backgroundColor = "green";
+}
+
+function showGreeting() {
+    let hour = new Date().getHours();
+    if (hour < 12) alert("Good Morning!");
+    else if (hour < 18) alert("Good Afternoon!");
+    else alert("Good Evening!");
+}
+
+function addNumbers() {
+    let a = parseInt(document.getElementById("num1").value);
+    let b = parseInt(document.getElementById("num2").value);
+    document.getElementById("result").innerText = a + b;
+}
+</script>
+
+</body>
+</html>
